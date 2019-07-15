@@ -1,0 +1,11 @@
+framework module PrizeOut {
+  umbrella header "PrizeOut.h"
+
+  export *
+  module * { export * }
+}
+
+module PrizeOut.Swift {
+    header "PrizeOut-Swift.h"
+    requires objc
+}
