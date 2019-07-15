@@ -49,3 +49,5 @@ Alternatively, PrizeOutManager can return a ViewController object instead of dir
 let vc =  PrizeOutManager.prizeOutViewController(config: poconfig)
 self.present(vc, animated: true)
 ```
+
+![PrizeOut](https://i.ibb.co/ysKL4Pr/prizeout-screen.png)
